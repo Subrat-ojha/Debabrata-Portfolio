@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Debabrata Ojha — Front Desk Receptionist</title>
+  <meta name="description" content="Portfolio of Debabrata Ojha. Front Office, 8 years at Hotel Anand. Using Attithy software.">
+  <style>
+    :root {
+      --bg: #0f1216;
+      --panel: #151a21;
+      --text: #e7edf3;
+      --muted: #a8b3be;
+      --accent: #3aa0ff;
+      --accent-2: #6de2a0;
+      --border: #242a33;
+      --shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      color: var(--text);
+      background: linear-gradient(180deg, #0b0e12 0%, var(--bg) 100%);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 24px;
+    }
+
+    header {
+      position: sticky;
+      top: 0;
+      backdrop-filter: blur(8px);
+      background: rgba(15,18,22,0.6);
+      border-bottom: 1px solid var(--border);
+      z-index: 10;
+    }
+
+    .nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+
+    .brand { font-weight: 700; letter-spacing: 0.3px; }
+    .brand small { color: var(--muted); font-weight: 500; }
+
+    .links { display: flex; gap: 16px; flex-wrap: wrap; }
+    .links a { color: var(--text); opacity: 0.8; }
+    .links a:hover { opacity: 1; }
+
+    .hero {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 28px;
+      align-items: center;
+      padding: 48px 0 12px;
+    }
+    .card {
+      background: linear-gradient(180deg, rgba(27,33,41,0.6), rgba(21,26,33,0.6));
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: var(--shadow);
+      padding: 22px;
+    }
+    .tag {
+      display: inline-block;
+      padding: 6px 10px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: #11161d;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    h1 {
+      margin: 14px 0 8px;
+      font-size: 32px;
+      line-height: 1.15;
+      letter-spacing: 0.2px;
+    }
+    .subtitle { color: var(--muted); margin: 0 0 16px; }
+    .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 8px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #10151b;
+      color: var(--text);
+      font-weight: 600;
+    }
+    .btn.primary { background: linear-gradient(90deg, var(--accent), var(--accent-2)); color: #0b0e12; border: none; }
+    .btn:hover { filter: brightness(1.05); }
+
+    .kpis {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .kpi { text-align: center; padding: 14px; border: 1px solid var(--border); border-radius: 12px; background: #0e141a; }
+    .kpi strong { font-size: 18px; display: block; }
+    .kpi span { color: var(--muted); font-size: 12px; }
+
+    section { margin: 28px 0; }
+    section h2 { margin: 0 0 12px; font-size: 20px; }
+    .list { display: grid; gap: 10px; }
+    .item { padding: 16px; border: 1px solid var(--border); border-radius: 12px; background: #0e141a; }
+    .item header { position: static; background: transparent; border: 0; padding: 0; }
+    .item h3 { margin: 0 0 6px; font-size: 16px; }
+    .muted { color: var(--muted); }
+
+    .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+
+    footer { margin: 40px 0 20px; color: var(--muted); font-size: 14px; text-align: center; }
+
+    .avatar { display: flex; justify-content: center; margin-bottom: 12px; }
+    .avatar img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; border: 2px solid var(--border); box-shadow: var(--shadow); }
+
+    @media (max-width: 840px) {
+      .hero { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Debabrata Ojha <small>— Front Desk Receptionist</small></div>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="hero">
+      <section class="card">
+        <span class="tag">Front Desk Receptionist</span>
+        <h1>Hi, I'm Debabrata Ojha</h1>
+        <p class="subtitle">Front Office professional with 8 years at Hotel Anand. I handle check‑ins, reservations, billing, and daily audit in Attithy. I stay calm, polite, and fast under pressure.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#contact">Get in touch</a>
+          <a class="btn" href="#experience">See experience</a>
+        </div>
+        <div class="kpis">
+          <div class="kpi"><strong>8+ years</strong><span>Front Office</span></div>
+          <div class="kpi"><strong>Attithy</strong><span>PMS and billing</span></div>
+          <div class="kpi"><strong>Hotel Anand</strong><span>2017–Present</span></div>
+        </div>
+      </section>
+      <aside class="card">
+        <div class="avatar">
+          <img src="./WhatsApp Image 2025-09-23 at 00.18.19_ad1b43fc.jpg" alt="Photo of Debabrata Ojha" onerror="this.onerror=null;this.src='https://images.unsplash.com/photo-1563298723-dcfebaa392e3?q=80&w=400&auto=format&fit=crop&ixlib=rb-4.0.3';">
+        </div>
+        <h2 id="about" style="margin-top:0">About</h2>
+        <p class="muted">I manages guests in Hotel. I do check‑ins and check‑outs, reservations, guest help, night audit, and cash reports ,parties,events</p>
+        <div class="chips">
+          <span class="tag">Guest Relations</span>
+          <span class="tag">Reservations</span>
+          <span class="tag">Night Audit</span>
+          <span class="tag">Events</span>
+          <span class="tag">Parties</span>
+        </div>
+      </aside>
+    </div>
+
+    <section id="experience">
+      <h2>Experience</h2>
+      <div class="list">
+        <article class="item">
+          <h3>Front Desk Receptionist</h3>
+          <p class="muted">Hotel Anand • 2017 – Present • Full‑time</p>
+          <ul class="muted">
+            <li>Manage check‑ins, check‑outs, room assignment, and guest requests.</li>
+            <li>Handle reservations, billing, Parties/Ebvents , and daily cash.</li>
+            <li>Do night audit and prepare biling, revenue, and handover reports.</li>
+            <li>Work with housekeeping and Hotel staff to solve issues quickly.</li>
+          </ul>
+          <div class="chips">
+            <span class="tag">Front Office</span>
+            <span class="tag">Reception</span>
+            <span class="tag">Customer Service</span>
+            <span class="tag">Teamwork</span>
+          </div>
+        </article>
+
+        <article class="item">
+          <h3>Hotel Software: Attithy PMS</h3>
+          <p class="muted">Used daily</p>
+          <ul class="muted">
+            <li>Reservations, check‑ins/outs, billing, GST invoices.</li>
+            <li>Room status, rates, discounts, payment modes.</li>
+            <li>End‑of‑day and audit reports.</li>
+          </ul>
+          <div class="chips">
+            <span class="tag">Attithy</span>
+            <span class="tag">PMS</span>
+            <span class="tag">Billing</span>
+            <span class="tag">Reporting</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="list">
+        <div class="item">
+          <h3>Guest and Desk Work</h3>
+          <p class="muted">Check‑ins/outs, reservations, concierge help, complaints, upselling.</p>
+        </div>
+        <div class="item">
+          <h3>Tools & Software</h3>
+          <p class="muted">Attithy PMS, MS Excel/Word, email and phone, POS coordination.</p>
+        </div>
+        <div class="item">
+          <h3>Strengths</h3>
+          <p class="muted">Polite communication, multi‑tasking, problem solving, , Staff Management.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <div class="list">
+        <div class="item">
+          <p>Open to front office desk roles and Hotel Roles.</p>
+          <p>
+            Email: <a href="mailto:your.email@example.com">Debabrataojha@gmail.com</a><br>
+            Phone: <a href="tel:+919556666682">+91 9556666682</a><br>
+            Location: Odisha, India
+          </p>
+          <div class="hero-cta">
+            <a class="btn primary" href="mailto:Debabrataojha@gmail.com?subject=Opportunity%20for%20Front%20Office%20Role">Email me</a>
+            <a class="btn" href="">Download resume (PDF)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      © <span id="year"></span> Debabrata Ojha
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
